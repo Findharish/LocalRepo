@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn Css</title>
+    <style>
+      /* combinators */
+      /* child selector */
+      .header > h1 > span {
+        background-color: red;
+      }
+      /* .header > h1 {
+        background-color: skyblue;
+      } */
+      /* decedent selector */
+      .header h1 {
+        background-color: yellow;
+      }
+      /* adjcent selector */
+      h1 + h2,
+      div + h3 {
+        background-color: skyblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>heading tag-1<span>spantag</span></h1>
+      <h2>heading tag-2</h2>
+      <div>
+        <h1>harish</h1>
+      </div>
+      <h3>heading tag-3</h3>
+    </div>
+    <div class="main">
+      <h1>heading tag-1</h1>
+      <h2>heading tag-2</h2>
+    </div>
+    <div class="footer">
+      <h1>heading tag-1<span>spantag</span></h1>
+      <h2>heading tag-2</h2>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn Grid</title>
+    <style>
+      .container {
+        height: 500px;
+        border: 2px solid red;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 100px auto 100px;
+        gap: 10px;
+      }
+      .item {
+        background-color: blue;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">item1</div>
+      <div class="item">item2</div>
+      <div class="item">item3</div>
+      <div class="item">item4</div>
+      <div class="item">item5</div>
+      <div class="item">item5</div>
+      <div class="item">item7</div>
+      <div class="item">item8</div>
+      <div class="item">item9</div>
+      <div class="item">item10</div>
+    </div>
+  </body>
+</html>

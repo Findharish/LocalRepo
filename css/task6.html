@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JavaJam Coffee House - Jobs</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-color: rgb(214, 159, 87);
+        color: #181817;
+        font-family: Verdana, Arial, sans-serif;
+      }
+      .container {
+        background-color: #2c2b2b;
+        width: 80%;
+        margin: auto;
+
+        box-shadow: 3px 3px 3px #bdbaba;
+        min-width: 850px;
+        max-width: 1100px;
+      }
+      header {
+        background-color: rgb(75, 33, 33);
+        color: #d2b48c;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        padding-left: 40px;
+      }
+      h1 {
+        font-size: 3em;
+        margin: 0;
+      }
+
+      .item1 {
+        float: left;
+        width: 200px;
+        padding-bottom: 20px;
+      }
+      .item1 a {
+        display: block;
+        text-decoration: none;
+        color: #899d5a;
+        font-weight: bold;
+        font-size: 25px;
+        padding: 15px 0 10px 20px;
+        text-align: center;
+      }
+      .item1 a:hover {
+        color: #cc9933;
+      }
+      .item2 {
+        margin-left: 200px;
+        background-color: #fef6c2;
+        padding: 20px 40px 40px 40px;
+        min-height: 450px;
+      }
+      .item2 h2 {
+        margin-top: 0;
+        color: #221811;
+      }
+      form {
+        margin-top: 25px;
+      }
+      label {
+        float: left;
+        width: 110px;
+        text-align: right;
+        padding-right: 15px;
+        font-size: 0.95em;
+      }
+      input,
+      textarea {
+        display: block;
+        margin-bottom: 15px;
+        border: 1px solid #888;
+        padding: 3px;
+      }
+      input[type="text"],
+      input[type="email"] {
+        width: 170px;
+      }
+      textarea {
+        width: 175px;
+        height: 45px;
+      }
+      input[type="submit"] {
+        margin-left: 125px;
+        padding: 4px 12px;
+        background-color: #eeecec;
+        border: 1px solid #d5d1d1;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      footer {
+        clear: both;
+        background-color: #d2b48c;
+        font-size: 0.8em;
+        font-style: italic;
+        text-align: center;
+        padding: 12px;
+        border-top: 2px solid #221811;
+      }
+      footer a {
+        color: #d10909;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>☕</h1>
+        <h1>JavaJam Coffee House</h1>
+      </header>
+      <div class="item1">
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">Music</a>
+        <a href="#">Jobs</a>
+      </div>
+
+      <div class="item2">
+        <h2>Jobs at JavaJam</h2>
+        <p>
+          Want to work at JavaJam? Fill out the form below to start your
+          application.<br />
+          Required fields are marked with an asterisk (*).
+        </p>
+
+        <form>
+          <label for="myName">*Name:</label>
+          <input type="text" id="myName" name="myName" />
+
+          <label for="myEmail">*E-mail:</label>
+          <input type="email" id="myEmail" name="myEmail" />
+
+          <label for="myExperience">*Experience:</label>
+          <textarea name="myExperience" id="myExperience"></textarea>
+
+          <input type="submit" value="Apply Now" />
+        </form>
+      </div>
+
+      <footer>
+        Copyright &copy; 2016 JavaJam Coffee House<br />
+        <a href="mailto:William@Taylor.com">William@Taylor.com</a>
+      </footer>
+    </div>
+  </body>
+</html>

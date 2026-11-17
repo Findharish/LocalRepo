@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectors</title>
+    <style>
+      /* class selector */
+      .xyz {
+        color: red;
+      }
+      .xyz {
+        color: blue;
+      }
+
+      /* id selector */
+      #abc {
+        background-color: cyan;
+        color: red;
+      }
+
+      /* attribute selector */
+      h1[align="left"] {
+        color: blue;
+      }
+      [align="center"] {
+        color: red;
+      }
+      [align="right"] {
+        color: green;
+      }
+      h2[align="left"] {
+        color: cyan;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="xyz">Aditya</h1>
+    <h1 class="xyz">Jitu</h1>
+    <h1 id="abc"><marquee behavior="" direction="">Harish</marquee></h1>
+    <h1 id="abc">Sagar</h1>
+    <h1 id="abc" class="xyz">allen</h1>
+    <hr />
+    <h1 align="left">Jai Balayya</h1>
+    <h1 align="center">Jai Balayya</h1>
+    <h1 align="right">Jai Balayya</h1>
+    <h2 align="left">Jai Balayya</h2>
+    <h2 align="center">Jai Balayya</h2>
+    <h2 align="right">Jai Balayya</h2>
+    <hr />
+  </body>
+</html>
