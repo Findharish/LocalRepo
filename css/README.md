@@ -160,3 +160,22 @@ grid-template-rows:100px auto 100px;
 
 percentage(%) : always takes the values from parent element
 pixcel(px) : always takes the values from screensize
+
+@media-query
+
+in css media-queries is used to add responsive design to the webpage.
+
+syntax:
+@media screen and (min-width: 300px) and (max-width: 500px) {
+_ {
+background-color: lightgreen;
+}
+}
+@media all and (min-width: 500px) and (max-width: 1100px) {
+_ {
+background-color: lightpink;
+}
+}
+
+media-type :
+screen, all, print
