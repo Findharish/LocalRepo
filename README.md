@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 HTML stands for Hyper Text Markup Language
 
 -->Html is used to create structure(layouts) of the webpages
@@ -115,3 +116,10 @@ Get(Default):Appends the form data directly to the URL as query parameters.It is
 Post:Sends data securely inside the HTTP request body.
 
 onsubmit: The onsubmit event fires when a <form> is submitted — either by clicking a submit button or pressing Enter in a field. It's the go-to hook for client-side validation before data is sent to the server.
+=======
+# This is my Local Repo
+# this is a new feature
+# this is use to pull request
+<p> this is new feature dropdown.</p>
+<p>this is new feature buttion</p>
+>>>>>>> c8c825fad6eb90f4453e3b4714ceb5fe9a985322
