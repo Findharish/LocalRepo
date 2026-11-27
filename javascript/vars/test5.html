@@ -6,7 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn js</title>
     <script>
+        function main() {
+            //object literal
+            let a = {};
+            console.log(a, typeof a);
 
+            //object constructor
+            let b = new Object();
+            console.log(b, typeof b);
+
+            a.id = 1;
+            a.name = "John";
+            console.log(a);
+
+            b = {
+                id: 2,
+                name: "Doe"
+            }
+            console.log(b);
+
+
+
+        }
+        main();
     </script>
 </head>
 
